@@ -67,7 +67,7 @@ A compact UART diagnostic tool for PlayStation 5, based on ESP32 and SSD1306 OLE
    - _LED_PWR_: GPIO 14 → resistor → LED → GND  
 
 4. **PS5 UART Source**  
-   - Connect PS5 UART TX pin (3.3 V or 1.8 V TTL) → ESP32 RX2 (GPIO 16)  
+   - Connect PS5 UART TX pin (3.3 V TTL) → ESP32 RX2 (GPIO 16)  
    - If PS5 UART is 1.8 V, use a level translator (e.g., MOSFET or TXB0108) to shift up to 3.3 V.  
 
 5. **USB Serial**  
